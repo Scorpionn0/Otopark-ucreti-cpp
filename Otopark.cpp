@@ -1,6 +1,5 @@
-
 #include <iostream>
-
+#include <conio.h>
 using namespace std;
 
 int main()
@@ -12,12 +11,12 @@ int main()
 	int tsaat;
 	int tutar;
 	
-    std::cout << "Hoşgeldiniz\n\n" << std::endl;
+    std::cout << "HoÃ¾geldiniz\n\n" << std::endl;
     
-    std::cout << "Lütfen giriş saatiniz giriniz: " << std::endl;
+    std::cout << "LÃ¼tfen giriÃ¾ saatiniz giriniz: " << std::endl;
     std::cin >> gsaati;
     
-    std::cout << "Lütfen çıkış saatinizi giriniz: " << std::endl;
+    std::cout << "LÃ¼tfen Ã§Ã½kÃ½Ã¾ saatinizi giriniz: " << std::endl;
     std::cin >> csaati;
     
     tsaat = csaati - gsaati;
@@ -29,5 +28,6 @@ int main()
 
 	
     return 0;
+	getch();
 }
 
